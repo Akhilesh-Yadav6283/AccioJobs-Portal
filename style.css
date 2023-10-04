@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 86px;
+    flex-wrap: nowrap;
+    border-bottom: 1px solid gray;
+    padding:0px 80px;
+    position: fixed;
+    top:0;
+    background-color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:25px
+}
+.vertical{
+    height:86px;
+    border-left:1px solid gray;
+
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 25px;
+    margin-left: 20px;
+}
+.message-box{
+    text-align: center;
+font-weight:400;
+font-style:italic;
+font-size:14px;
+Line-height:25px;
+padding: 10px ;
+}
+.left-hero{
+    width:711px;
+    height: 320px;
+    column-gap: 20px;
+}
+.heading-1{
+    width:638px;
+    height:65px;
+    gap: 10px;
+    font-family: ABeeZee;
+font-size: 50px;
+font-style: italic;
+font-weight: 600;
+line-height: 65px;
+letter-spacing: -0.015em;
+text-align: left;
+
+
+}
+.heading-2{
+    width: 674px;
+    height: 65px;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 65px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #2F80ED;   
+    text-shadow:2px 2px 0px black ; 
+
+}
+.heading-3{
+    width: 674px;
+    height: 65px;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 65px;
+    letter-spacing: -0.015em;
+    text-align: left ;
+    padding-left: 10px; 
+    text-shadow:2px 2px 0px black ; 
+}
+
+.text-1{
+    width: 492px;
+   height: 46px;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 23px;
+   letter-spacing: 0.02em;
+   text-align: left;
+   color: rgba(89, 89, 89, 1);
+
+}
+.hero-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%
+}
+.left-hero-features{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    border:1px solid whitesmoke;
+}
+.madeBy{
+    margin-top: 70px;
+    box-shadow: 0px 0px 10px gray;
+    text-align: center;
+    padding:10px;
+    width:40%;
+}
+.right-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 415px;
+    height:496px;
+    border-radius: 18px; 
+    margin-top: 70px;
+    background-color: white;
+    box-shadow: 0px 0px 10px gray ;
+    gap:20px;
+    box-sizing: border-box;
+}
+.btn-right{
+    
+    background: linear-gradient(276.97deg, #992FED 0%, #2F80ED 100%);
+    padding: 14px 6px 14px 16px;
+    border-radius: 8px;
+    margin: 0px 20px;
+
+}
+.input-name{
+    width:90%;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.input-num{
+    width:90%;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.course{
+    width: 100%;
+    height:1000px;
+    padding: 80px 0px 78px 0px;
+    background: rgba(236, 248, 255, 1);
+  /* border: 1px solid; */
+  margin-top: 100px;
+  justify-content: center;
+}
+.course-heading{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.course-heading-1{
+    width:100%
+    height: 25px;
+ font-family: ABeeZee;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.08em;
+    text-align: center;
+    color:rgba(153, 47, 237, 1);
+
+
+}
+.course-title{
+    font-family: ABeeZee;
+font-size: 50px;
+font-weight: 400;
+line-height: 54px;
+letter-spacing: -0.015em;
+text-align: center;
+color: rgba(47, 128, 237, 1);
+}
+.course-table-1{
+    width: 498px;
+    height: 650px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px;
+    background-color: white;
+    padding-top: 20px;
+}
+.course-table-2{
+    width: 498px;
+    height: 650px;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px;
+    background-color: white;
+    padding-top: 20px;
+
+    
+}
+.course-table{
+    display: flex;
+    width:100%;
+    justify-content:space-around;
+    align-items: center;
+    /* margin-bottom: 20px; */
+}
+.line-1s>p{
+    background-color: #e0f3ff;
+    color:#6eabd1;
+}
+.line-1p>p{
+    background-color:#ffeed8 ;
+    color:#bf9054 ;
+}
+.akhi{
+    padding: 15px;
+}
+.line-3s>h5:nth-child(2){
+   justify-content: right;
+   text-align: end;
+}
+.line-7s{
+    display:flex;
+    justify-content: space-between;
+    font-size: 25px;
+}
+.akhil{
+    padding: 20px;
+}
+.btn{
+    width:40%;
+}
+.companies{
+    width:100%;
+    height: 794px;
+    margin-top:100px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
+
+    
+    
+}
+.upper-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:641px;
+    /* height:182px; */
+}
+.parag{
+    width: 251px;
+    height: 19px;
+
+    font-family: ABeeZee;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.08em;
+text-align: center;
+color:rgba(153, 47, 237, 1);
+}
+.heading-4{
+    width: 641px;
+height: 126px;
+
+    font-family: ABeeZee;
+font-size: 42px;
+font-style: italic;
+font-weight: 400;
+line-height: 63px;
+letter-spacing: -0.015em;
+text-align: center;
+color:#2B2F34;
+
+}
+.logo-side{
+ width:100%;
+}
+.logo-img{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+.placement-btn{
+    width:276px;
+    height:55px;
+    position: relative;
+    top:45px;
+    left:45%;
+    padding: 14px 6px 14px 16px;
+    border-radius:10px;
+    gap: 2px;
+    
+}
+.footer{
+    display: flex;
+    align-items: center;
+}
+.heading-5{
+    width:100%;
+    height: 63px;
+    font-family: ABeeZee;
+font-size: 42px;
+font-style: italic;
+font-weight: 400;
+line-height: 63px;
+letter-spacing: -0.015em;
+text-align: center;
+color: rgba(43, 47, 52, 1);     
+}
+.para-1{
+    width:100%;
+    height: 23px;
+font-size: 18px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.02em;
+text-align: center;
+color:rgba(89, 89, 89, 1);
+}
+.footer>img{
+    width:100%;
+    height:738px;
+    margin-bottom: 10px;
+
+}
+@media  and (max-width:720px) {
+   .course-table{
+    flex-wrap:wrap;
+   } 
+}
+
+
+
