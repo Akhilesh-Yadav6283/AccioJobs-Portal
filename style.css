@@ -219,7 +219,6 @@
   width: 498px;
   height: 650px;
   border-radius: 9px;
-  /* box-shadow: 0px 0px 10px; */
   background-color: white;
   padding-top: 20px;
 }
@@ -227,7 +226,6 @@
   width: 498px;
   height: 650px;
   border-radius: 9px;
-  /* box-shadow: 0px 0px 10px; */
   background-color: white;
   padding-top: 20px;
 }
@@ -272,7 +270,6 @@
 }
 .companies {
   width: 1280px;
-  /* height: 794px; */
   margin-top: 100px;
   display: flex;
   flex-direction: column;
@@ -445,7 +442,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* margin-top:20px; */
     height: 100%;
   }
   .main-container {
@@ -457,46 +453,98 @@
   .left-hero {
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     margin-top: 170px;
+    gap: 25px;
     height: 100%;
+    
+  }
+  .right-hero{
+    width: 400px;
+    text-align: center;
+    align-items: center;
   }
   .text-1 {
-    text-align: center;
-    flex-wrap: wrap;
-  }
+    width:300px;
+     text-align: center;
+     }
   .heading-1,
   .heading-2,
-  .heading-3 {
+  .heading-3{
+    width: 400px;
     text-align: center;
-    font-size: 40px;
+    flex-wrap: wrap;
+    font-size:50px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .bothHead {
     flex-direction: column;
+    text-align: center;
+    gap:50px;
   }
   .left-hero-features {
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
     text-align: center;
   }
   .arrows {
     display: none;
   }
+  .allCourses{
+    display: flex;
+    justify-content: center;
+    max-width: 576px;
+    height:100%;
+  }
   .course {
+    max-width: 500px;
     height: 100%;
+    text-align: center;
     flex-direction: column;
     align-items: center;
   }
-  .course-table {
+  .course-heading{
+    width: 400px;
+    gap: 10px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  .course-table {
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
     gap: 15px;
+  }
+  .course-table-1,.course-table-2{
+    width: 400px;
+    align-items: center;
+  }
+  .upper-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .heading-4{
+    width: 400px;
+    font-size:35px;
+    text-align: center;
+    flex-wrap: wrap;
   }
   .logo-side {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+  }
+  .placement-btn{
+    position: relative;
+  top: 45px;
+  left:38%;
   }
   .logo-img {
     flex-direction: column;
